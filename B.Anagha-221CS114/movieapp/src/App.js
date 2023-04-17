@@ -29,7 +29,7 @@ function App() {
     const options = {
       method: 'GET',
       headers: {
-          'X-RapidAPI-Key': '49eb6ba052msh1bc72a8983a318cp14adf1jsn06a9b26bddc8',
+          'X-RapidAPI-Key': 'ENTER KEY',
           'X-RapidAPI-Host': 'moviesdatabase.p.rapidapi.com'
       }
   }
