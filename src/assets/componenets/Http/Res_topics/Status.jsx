@@ -40,7 +40,7 @@ function Status() {
                     </li>
                     <li className="mb-1"><strong>5xx</strong>
                         <ul className="ml-5">
-                            <li className="mb-1 text-left">{http_rs_text.Status_Codes.Code5xx.description}</li>
+                            <li className="mb-1">{http_rs_text.Status_Codes.Code5xx.description}</li>
                         </ul>
                     </li>
                 </ul>

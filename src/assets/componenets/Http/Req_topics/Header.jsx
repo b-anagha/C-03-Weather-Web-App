@@ -18,17 +18,17 @@ function Head() {
             <div className="my-5">
                 <div className={styles.subheading}>Header Components:</div>
                 <ul>
-                    <li className="mb-1"><strong>Content Type</strong>
+                    <li className="mb-1 text-left"><strong>Content Type</strong>
                         <ul className="ml-5">
                             <li className="mb-1 text-left">{http_rq_text.Headers.Content_Type.description}</li>
                         </ul>
                     </li>
-                    <li className="mb-1"><strong>Authorization</strong>
+                    <li className="mb-1 text-left"><strong>Authorization</strong>
                         <ul className="ml-5">
                             <li className="mb-1 text-left">{http_rq_text.Headers.Authorization.description}</li>
                         </ul>
                     </li>
-                    <li className="mb-1"><strong>User Agent</strong>
+                    <li className="mb-1 text-left"><strong>User Agent</strong>
                         <ul className="ml-5">
                             <li className="mb-1 text-left">{http_rq_text.Headers.User_Agent.description}</li>
                         </ul>

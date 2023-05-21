@@ -24,17 +24,17 @@ function Head() {
                             <li className="mb-1 text-left">{http_rs_text.Headers.Content_Type.description}</li>
                         </ul>
                     </li>
-                    <li className="mb-1"><strong>Content Length</strong>
+                    <li className="mb-1 text-left"><strong>Content Length</strong>
                         <ul className="ml-5">
                             <li className="mb-1 text-left">{http_rs_text.Headers.Content_Length.description}</li>
                         </ul>
                     </li>
-                    <li className="mb-1"><strong>Cache Control</strong>
+                    <li className="mb-1 text-left"><strong>Cache Control</strong>
                         <ul className="ml-5">
                             <li className="mb-1 text-left">{http_rs_text.Headers.Cache_Control.description}</li>
                         </ul>
                     </li>
-                    <li className="mb-1"><strong>Set Cookie</strong>
+                    <li className="mb-1 text-left"><strong>Set Cookie</strong>
                         <ul className="ml-5">
                             <li className="mb-1 text-left">{http_rs_text.Headers.Set_Cookie.description}</li>
                         </ul>

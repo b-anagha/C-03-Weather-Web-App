@@ -10,7 +10,7 @@ import { asy_js_text } from "../constants/asy-js";
 function Async() {
   const [topic, setTopic] = useState(0);
   return (
-    <div className="py-6  flex justify-center text-offWhite  text-xl">
+    <div className="py-6  flex justify-center text-offWhite  text-xl text-left">
       <div className="flex  flex-wrap w-[60%]">
         <div className={`text-center basis-full ${styles.title}`}>
           Asynchronous JavaScript

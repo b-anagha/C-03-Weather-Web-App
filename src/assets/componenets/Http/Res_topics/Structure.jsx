@@ -18,17 +18,17 @@ function Structure() {
             </div>
             <div className="my-5">
                 <ul>
-                    <li className="mb-1"><strong>Status Line</strong>
+                    <li className="mb-1 text-left"><strong>Status Line</strong>
                         <ul className="ml-5 ">
                             <li className="mb-1 text-left">{http_rs_text.Structure.Status_Line.description}</li>
                         </ul>
                     </li>
-                    <li className="mb-1"><strong>Headers</strong>
+                    <li className="mb-1 text-left"><strong>Headers</strong>
                         <ul className="ml-5">
                             <li className="mb-1 text-left">{http_rs_text.Structure.Headers.description}</li>
                         </ul>
                     </li>
-                    <li className="mb-1"><strong>Body</strong>
+                    <li className="mb-1 text-left"><strong>Body</strong>
                         <ul className="ml-5">
                             <li className="mb-1 text-left">{http_rs_text.Structure.Body.description}</li>
                         </ul>
