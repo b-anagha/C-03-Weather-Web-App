@@ -16,7 +16,7 @@ function Cards() {
           
             <h2 className='text-2xl font-bold text-center py-8'>Http Requests</h2>
           
-            <button onClick={()=>{setLink(1)}} className={"my-6 mx-auto py-4 bg-[#e9d8fd] w-[200px] rounded-md font-medium text-center text-black  text-xl"}>Read Blog</button>
+            <button onClick={()=>{setLink(1)}} className={"my-9 mx-auto py-4 bg-[#e9d8fd] w-[200px] rounded-md font-medium text-center text-black  text-xl"}>Read Blog</button>
             
            </div>  
           
@@ -24,19 +24,19 @@ function Cards() {
            
             <h2 className='text-2xl font-bold text-center py-8'>Http Response</h2>
         
-            <button onClick={()=>{setLink(2)}} className={"my-6 mx-auto py-4 bg-[#e9d8fd] w-[200px] rounded-md font-medium text-center text-black  text-xl"}>Read Blog</button>
+            <button onClick={()=>{setLink(2)}} className={"my-9 mx-auto py-4 bg-[#e9d8fd] w-[200px] rounded-md font-medium text-center text-black  text-xl"}>Read Blog</button>
         </div>
         <div className="w-full bg-primary shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
            
             <h2 className='text-2xl font-bold text-center py-8'>APIs</h2>
             
-            <button onClick={()=>{setLink(3)}} className={"my-6 mx-auto py-4 bg-[#e9d8fd] w-[200px] rounded-md font-medium text-center text-black text-xl"}>Read Blog</button>
+            <button onClick={()=>{setLink(3)}} className={"my-9 mx-auto py-4 bg-[#e9d8fd] w-[200px] rounded-md font-medium text-center text-black text-xl"}>Read Blog</button>
         </div>
         <div className="w-full bg-primary shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
             
             <h2 className='text-2xl font-bold text-center py-8'>Asynchronous JavaScript</h2>
           
-            <button onClick={()=>{setLink(4)}} className={"my-6 mx-auto py-4 bg-[#e9d8fd] w-[200px] rounded-md font-medium text-center text-black  text-xl"}>Read Blog</button>
+            <button onClick={()=>{setLink(4)}} className={"my-1 mx-auto py-4 bg-[#e9d8fd] w-[200px] rounded-md font-medium text-center text-black  text-xl"}>Read Blog</button>
         </div>
       </div>
       <div>

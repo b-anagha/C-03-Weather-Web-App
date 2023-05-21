@@ -25,7 +25,7 @@ function REQ() {
             <button
               onClick={() => setTopic(1)}
               className={`${
-                topic == 1 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
+                topic == 1 ? "bg-black text-[#e9d8fd]" : "bg-transparent  text-black"
               } ${styles.button_start}`}
             >
               Header
@@ -33,7 +33,7 @@ function REQ() {
             <button
               onClick={() => setTopic(2)}
               className={`${
-                topic == 2 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
+                topic == 2 ? "bg-black text-[#e9d8fd]" : "bg-transparent  text-black"
               } ${styles.button}`}
             >
               Methods
@@ -41,7 +41,7 @@ function REQ() {
             <button
               onClick={() => setTopic(3)}
               className={`${
-                topic == 3 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
+                topic == 3 ? "bg-black text-[#e9d8fd]" : "bg-transparent  text-black"
               } ${styles.button}`}
             >
               Query
@@ -49,7 +49,7 @@ function REQ() {
             <button
               onClick={() => setTopic(4)}
               className={`${
-                topic == 4 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
+                topic == 4 ? "bg-black text-[#e9d8fd]" : "bg-transparent  text-black"
               } ${styles.button}`}
             >
               Request
@@ -57,7 +57,7 @@ function REQ() {
             <button
               onClick={() => setTopic(5)}
               className={`${
-                topic == 5 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
+                topic == 5 ? "bg-black text-[#e9d8fd]" : "bg-transparent  text-black"
               } ${styles.button}`}
             >
               Response
@@ -65,7 +65,7 @@ function REQ() {
             <button
               onClick={() => setTopic(6)}
               className={`${
-                topic == 6 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
+                topic == 6 ? "bg-black text-[#e9d8fd]" : "bg-transparent  text-black"
               } ${styles.button}`}
             >
               Status
@@ -73,7 +73,7 @@ function REQ() {
             <button
               onClick={() => setTopic(7)}
               className={`${
-                topic == 7 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
+                topic == 7 ? "bg-black text-[#e9d8fd]" : "bg-transparent  text-black"
               } ${styles.button}`}
             >
               Structure
@@ -81,7 +81,7 @@ function REQ() {
             <button
               onClick={() => setTopic(8)}
               className={`${
-                topic == 8 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
+                topic == 8 ? "bg-black text-[#e9d8fd]" : "bg-transparent  text-black"
               } ${styles.button_end}`}
             >
               Url

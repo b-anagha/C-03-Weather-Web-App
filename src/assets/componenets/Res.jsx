@@ -22,7 +22,7 @@ function Res() {
             <button
               onClick={() => setTopic(1)}
               className={`${
-                topic == 1 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
+                topic == 1 ? "bg-black text-[#e9d8fd]" : "bg-transparent  text-black"
               } ${styles.button_start}`}
             >
               Headers
@@ -30,7 +30,7 @@ function Res() {
             <button
               onClick={() => setTopic(2)}
               className={`${
-                topic == 2 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
+                topic == 2 ? "bg-black text-[#e9d8fd]" : "bg-transparent  text-black"
               } ${styles.button}`}
             >
               Redirects
@@ -38,7 +38,7 @@ function Res() {
             <button
               onClick={() => setTopic(3)}
               className={`${
-                topic == 3 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
+                topic == 3 ? "bg-black text-[#e9d8fd]" : "bg-transparent  text-black"
               } ${styles.button}`}
             >
               Response
@@ -46,7 +46,7 @@ function Res() {
             <button
               onClick={() => setTopic(4)}
               className={`${
-                topic == 4 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
+                topic == 4 ? "bg-black text-[#e9d8fd]" : "bg-transparent  text-black"
               } ${styles.button}`}
             >
               Status
@@ -54,7 +54,7 @@ function Res() {
             <button
               onClick={() => setTopic(5)}
               className={`${
-                topic == 5 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
+                topic == 5 ? "bg-black text-[#e9d8fd]" : "bg-transparent  text-black"
               } ${styles.button_end}`}
             >
               Structure
