@@ -10,7 +10,7 @@ function Cards() {
   return (
     // ${link == 1 && <Head />}`}
     <div className='w-full py-[10rem] px-4' id="blogs">
-      <h1 className='mx-auto text-center flex flex-col justify-center text-4xl mb-20 text-[#e9d8fd] font-bold'>BLOGS</h1>
+      <h1 className='mx-auto text-center flex flex-col justify-center text-6xl mb-20 text-[#e9d8fd] font-bold'>BLOGS</h1>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-4 gap-8'>
         <div className="w-full bg-primary shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           
