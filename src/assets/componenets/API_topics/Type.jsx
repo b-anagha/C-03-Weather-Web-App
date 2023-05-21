@@ -11,14 +11,14 @@ function Type() {
         >
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Types</div>
             <div className="my-5">
-                <ul className="list-disc">
+                <ul>
                     <li className="mb-1"><strong>Web APIs</strong>
-                        <ul className="ml-5 list-[square]">
+                        <ul className="ml-5">
                             <li className="mb-1">{api_text.Types.Web.description}</li>
                         </ul>
                     </li>
                     <li className="mb-1"><strong>Library</strong>
-                        <ul className="ml-5 list-[square]">
+                        <ul className="ml-5">
                             <li className="mb-1">{api_text.Types.Library.description}</li>
                         </ul>
                     </li>

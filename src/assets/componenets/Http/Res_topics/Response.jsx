@@ -12,8 +12,8 @@ function Response() {
         >
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Response Body</div>
             <div>
-                <ul className="list-disc">
-                    <li className="mb-1">{http_rs_text.Response_body.description}</li>
+                <ul>
+                    <li className="mb-1 text-left">{http_rs_text.Response_body.description}</li>
                 </ul>
             </div>
                     

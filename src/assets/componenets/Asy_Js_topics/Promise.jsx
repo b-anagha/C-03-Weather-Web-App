@@ -11,7 +11,7 @@ function Promise() {
         >
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Promises</div>
             <div>
-                <ul className="list-disc">
+                <ul>
                     <li className="mb-1">{asy_js_text.Promises.description}</li>
                 </ul>
             </div>

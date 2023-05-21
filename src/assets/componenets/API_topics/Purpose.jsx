@@ -11,7 +11,7 @@ function Purpose() {
         >
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Purpose</div>
             <div>
-                <ul className="list-disc">
+                <ul>
                     <li className="mb-1">{api_text.Purpose.description}</li>
                 </ul>
             </div>

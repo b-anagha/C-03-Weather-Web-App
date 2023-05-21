@@ -11,7 +11,7 @@ function Rate() {
         >
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Rate Limit</div>
             <div>
-                <ul className="list-disc">
+                <ul>
                     <li className="mb-1">{api_text.Rate_Limit.description}</li>
                 </ul>
             </div>

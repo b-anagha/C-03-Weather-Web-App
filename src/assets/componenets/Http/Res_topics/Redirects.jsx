@@ -12,7 +12,7 @@ function Redirects() {
         >
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Redirects</div>
             <div>
-                <ul className="list-disc">
+                <ul>
                     <li className="mb-1">{http_rs_text.Redirects.description}</li>
                 </ul>
             </div>

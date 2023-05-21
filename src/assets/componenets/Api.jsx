@@ -12,19 +12,19 @@ import { api_text } from "../constants/api";
 function Api() {
   const [topic, setTopic] = useState(0);
   return (
-    <div className="py-6  flex justify-center text-offWhite">
+    <div className="py-6  flex justify-center text-offWhite  text-xl">
       <div className="flex  flex-wrap w-[60%]">
         <div className={`text-center basis-full ${styles.title}`}>API</div>
 
         <div className="basis-full flex justify-center">
           <div
-            className={`flex justify-center bg-[#00df9a] ${styles.btn_grp}`}
+            className={`flex justify-center bg-[#e9d8fd] ${styles.btn_grp}`}
             id="button-grp"
           >
             <button
               onClick={() => setTopic(1)}
               className={`${
-                topic == 1 ? "bg-black text-[#00df9a]" : "bg-transparent"
+                topic == 1 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
               } ${styles.button_start}`}
             >
               Authentication
@@ -32,7 +32,7 @@ function Api() {
             <button
               onClick={() => setTopic(2)}
               className={`${
-                topic == 2 ? "bg-black text-[#00df9a]" : "bg-transparent"
+                topic == 2 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
               } ${styles.button}`}
             >
               Documentation
@@ -40,7 +40,7 @@ function Api() {
             <button
               onClick={() => setTopic(3)}
               className={`${
-                topic == 3 ? "bg-black text-[#00df9a]" : "bg-transparent"
+                topic == 3 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
               } ${styles.button}`}
             >
               Endpoint
@@ -48,7 +48,7 @@ function Api() {
             <button
               onClick={() => setTopic(4)}
               className={`${
-                topic == 4 ? "bg-black text-[#00df9a]" : "bg-transparent"
+                topic == 4 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
               } ${styles.button}`}
             >
               Purpose
@@ -56,7 +56,7 @@ function Api() {
             <button
               onClick={() => setTopic(5)}
               className={`${
-                topic == 5 ? "bg-black text-[#00df9a]" : "bg-transparent"
+                topic == 5 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
               } ${styles.button}`}
             >
               Rate
@@ -64,7 +64,7 @@ function Api() {
             <button
               onClick={() => setTopic(6)}
               className={`${
-                topic == 6 ? "bg-black text-[#00df9a]" : "bg-transparent"
+                topic == 6 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
               } ${styles.button}`}
             >
               Request Response
@@ -72,24 +72,24 @@ function Api() {
             <button
               onClick={() => setTopic(7)}
               className={`${
-                topic == 7 ? "bg-black text-[#00df9a]" : "bg-transparent"
+                topic == 7 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
               } ${styles.button_end}`}
             >
               Type
             </button>
           </div>
         </div>
-        <div className="w-full h-[5px] rounded-3xl bg-black my-3"></div>
+        <div className="w-full h-[5px] rounded-3xl bg-pink-300 my-3"></div>
         <div className="my-10 w-full">
           <div className="my-5">
             <ul>
               <li className="mb-1">
-                <ul className="ml-5 list-[square]">
+                <ul className="ml-5 ">
                   <li className="mb-1">{api_text.para1}</li>
                 </ul>
               </li>
               <li className="mb-1">
-                <ul className="ml-5 list-[square]">
+                <ul className="ml-5">
                   <li className="mb-1">{api_text.para3}</li>
                 </ul>
               </li>

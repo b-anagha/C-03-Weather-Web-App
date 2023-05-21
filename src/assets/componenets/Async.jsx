@@ -10,7 +10,7 @@ import { asy_js_text } from "../constants/asy-js";
 function Async() {
   const [topic, setTopic] = useState(0);
   return (
-    <div className="py-6  flex justify-center text-offWhite">
+    <div className="py-6  flex justify-center text-offWhite  text-xl">
       <div className="flex  flex-wrap w-[60%]">
         <div className={`text-center basis-full ${styles.title}`}>
           Asynchronous JavaScript
@@ -18,13 +18,13 @@ function Async() {
 
         <div className="basis-full flex justify-center">
           <div
-            className={`flex justify-center bg-[#00df9a] ${styles.btn_grp}`}
+            className={`flex justify-center bg-[#e9d8fd] ${styles.btn_grp}`}
             id="button-grp"
           >
             <button
               onClick={() => setTopic(1)}
               className={`${
-                topic == 1 ? "bg-black text-[#00df9a]" : "bg-transparent"
+                topic == 1 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
               } ${styles.button_start}`}
             >
               Asynchronous
@@ -32,7 +32,7 @@ function Async() {
             <button
               onClick={() => setTopic(2)}
               className={`${
-                topic == 2 ? "bg-black text-[#00df9a]" : "bg-transparent"
+                topic == 2 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
               } ${styles.button}`}
             >
               Call
@@ -40,7 +40,7 @@ function Async() {
             <button
               onClick={() => setTopic(3)}
               className={`${
-                topic == 3 ? "bg-black text-[#00df9a]" : "bg-transparent"
+                topic == 3 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
               } ${styles.button}`}
             >
               Event
@@ -48,7 +48,7 @@ function Async() {
             <button
               onClick={() => setTopic(4)}
               className={`${
-                topic == 4 ? "bg-black text-[#00df9a]" : "bg-transparent"
+                topic == 4 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
               } ${styles.button}`}
             >
               Handling
@@ -56,17 +56,17 @@ function Async() {
             <button
               onClick={() => setTopic(5)}
               className={`${
-                topic == 5 ? "bg-black text-[#00df9a]" : "bg-transparent"
+                topic == 5 ? "bg-black text-[#e9d8fd]" : "bg-transparent"
               } ${styles.button_end}`}
             >
               Promise
             </button>
           </div>
         </div>
-        <div className="w-full h-[5px] rounded-3xl bg-black my-3"></div>
+        <div className="w-full h-[5px] rounded-3xl bg-pink-300 my-3"></div>
         <div className="my-10 w-full">
           <div>
-            <ul className="ml-5 list-[square]">
+            <ul className="ml-5">
               <li className="mb-1">{asy_js_text.para1}</li>
               <li className="mb-1">{asy_js_text.para3}</li>
             </ul>

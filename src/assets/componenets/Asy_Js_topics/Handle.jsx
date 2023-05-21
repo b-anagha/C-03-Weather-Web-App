@@ -11,7 +11,7 @@ function Handle() {
         >
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Handling Asynchronous Tasks</div>
             <div>
-                <ul className="list-disc">
+                <ul>
                     <li className="mb-1">{asy_js_text.Handling.description}</li>
                 </ul>
             </div>

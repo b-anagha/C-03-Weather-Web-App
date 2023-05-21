@@ -11,7 +11,7 @@ function Event() {
         >
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Event Loop</div>
             <div>
-                <ul className="list-disc">
+                <ul>
                     <li className="mb-1">{asy_js_text.Async_fn.description}</li>
                 </ul>
             </div>

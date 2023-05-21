@@ -11,7 +11,7 @@ function Query() {
         >
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Query Parameters</div>
             <div>
-                <ul className="list-disc">
+                <ul>
                     <li className="mb-1">{http_rq_text.Query_Param.description[0]}</li>
                     <li className="mb-1">{http_rq_text.Query_Param.description[1]}</li>
                     <li className="mb-1">{http_rq_text.Query_Param.description[2]}</li>

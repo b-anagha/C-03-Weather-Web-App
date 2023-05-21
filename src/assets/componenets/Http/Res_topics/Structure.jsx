@@ -12,24 +12,24 @@ function Structure() {
         >
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Structure</div>
             <div>
-                <ul className="list-disc">
+                <ul>
                     <li className="mb-1">{http_rs_text.Structure.description}</li>
                 </ul>
             </div>
             <div className="my-5">
-                <ul className="list-disc">
+                <ul>
                     <li className="mb-1"><strong>Status Line</strong>
-                        <ul className="ml-5 list-[square]">
+                        <ul className="ml-5 ">
                             <li className="mb-1">{http_rs_text.Structure.Status_Line.description}</li>
                         </ul>
                     </li>
                     <li className="mb-1"><strong>Headers</strong>
-                        <ul className="ml-5 list-[square]">
+                        <ul className="ml-5">
                             <li className="mb-1">{http_rs_text.Structure.Headers.description}</li>
                         </ul>
                     </li>
                     <li className="mb-1"><strong>Body</strong>
-                        <ul className="ml-5 list-[square]">
+                        <ul className="ml-5">
                             <li className="mb-1">{http_rs_text.Structure.Body.description}</li>
                         </ul>
                     </li>
