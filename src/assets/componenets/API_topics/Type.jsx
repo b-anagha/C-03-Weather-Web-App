@@ -19,7 +19,7 @@ function Type() {
                     </li>
                     <li className="mb-1"><strong>Library</strong>
                         <ul className="ml-5">
-                            <li className="mb-1">{api_text.Types.Library.description}</li>
+                            <li className="mb-1 text-left">{api_text.Types.Library.description}</li>
                         </ul>
                     </li>
                 </ul>

@@ -12,7 +12,7 @@ function Response() {
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Response</div>
             <div>
                 <ul>
-                    <li className="mb-1">{http_rq_text.Response.description}</li>
+                    <li className="mb-1 text-left">{http_rq_text.Response.description}</li>
                 </ul>
             </div>
                   

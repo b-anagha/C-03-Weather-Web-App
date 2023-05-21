@@ -85,12 +85,12 @@ function Api() {
             <ul>
               <li className="mb-1">
                 <ul className="ml-5 ">
-                  <li className="mb-1">{api_text.para1}</li>
+                  <li className="mb-1 text-left">{api_text.para1}</li>
                 </ul>
               </li>
               <li className="mb-1">
                 <ul className="ml-5">
-                  <li className="mb-1">{api_text.para3}</li>
+                  <li className="mb-1 text-left">{api_text.para3}</li>
                 </ul>
               </li>
             </ul>

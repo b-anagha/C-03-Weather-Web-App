@@ -12,7 +12,7 @@ function Req_Res() {
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Request Response</div>
             <div>
                 <ul>
-                    <li className="mb-1">{api_text.Req_Res.description}</li>
+                    <li className="mb-1 text-left">{api_text.Req_Res.description}</li>
                 </ul>
             </div>
                    

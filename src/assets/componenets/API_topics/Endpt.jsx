@@ -12,7 +12,7 @@ function Endpt() {
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Endpoints</div>
             <div>
                 <ul>
-                    <li className="mb-1">{api_text.Endpoints.description}</li>
+                    <li className="mb-1 text-left">{api_text.Endpoints.description}</li>
                 </ul>
             </div>
                    

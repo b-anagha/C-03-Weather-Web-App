@@ -13,7 +13,7 @@ function Head() {
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Headers</div>
             <div>
                 <ul>
-                    <li className="mb-1">{http_rs_text.Headers.description}</li>
+                    <li className="mb-1 text-left">{http_rs_text.Headers.description}</li>
                 </ul>
             </div>
             <div className="my-5">
@@ -26,17 +26,17 @@ function Head() {
                     </li>
                     <li className="mb-1"><strong>Content Length</strong>
                         <ul className="ml-5">
-                            <li className="mb-1">{http_rs_text.Headers.Content_Length.description}</li>
+                            <li className="mb-1 text-left">{http_rs_text.Headers.Content_Length.description}</li>
                         </ul>
                     </li>
                     <li className="mb-1"><strong>Cache Control</strong>
                         <ul className="ml-5">
-                            <li className="mb-1">{http_rs_text.Headers.Cache_Control.description}</li>
+                            <li className="mb-1 text-left">{http_rs_text.Headers.Cache_Control.description}</li>
                         </ul>
                     </li>
                     <li className="mb-1"><strong>Set Cookie</strong>
                         <ul className="ml-5">
-                            <li className="mb-1">{http_rs_text.Headers.Set_Cookie.description}</li>
+                            <li className="mb-1 text-left">{http_rs_text.Headers.Set_Cookie.description}</li>
                         </ul>
                     </li>
                 </ul>

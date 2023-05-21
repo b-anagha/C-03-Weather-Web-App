@@ -12,7 +12,7 @@ function Url() {
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Url</div>
             <div>
                 <ul>
-                    <li className="mb-1">{http_rq_text.Url.description}</li>
+                    <li className="mb-1 text-left">{http_rq_text.Url.description}</li>
                 </ul>
             </div>
                    

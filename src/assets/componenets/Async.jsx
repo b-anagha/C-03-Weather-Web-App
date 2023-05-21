@@ -67,8 +67,8 @@ function Async() {
         <div className="my-10 w-full">
           <div>
             <ul className="ml-5">
-              <li className="mb-1">{asy_js_text.para1}</li>
-              <li className="mb-1">{asy_js_text.para3}</li>
+              <li className="mb-1 text-left">{asy_js_text.para1}</li>
+              <li className="mb-1 text-left">{asy_js_text.para3}</li>
             </ul>
           </div>
 

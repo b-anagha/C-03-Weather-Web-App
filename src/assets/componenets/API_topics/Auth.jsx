@@ -12,7 +12,7 @@ function Auth() {
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Authorization</div>
             <div>
                 <ul>
-                    <li className="mb-1">{api_text.Auth.description}</li>
+                    <li className="mb-1 text-left">{api_text.Auth.description}</li>
                 </ul>
             </div>
                    

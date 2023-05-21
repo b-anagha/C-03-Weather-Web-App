@@ -12,7 +12,7 @@ function Requests() {
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Request Body</div>
             <div>
                 <ul>
-                    <li className="mb-1">{http_rq_text.Request_body.description}</li>
+                    <li className="mb-1 text-left">{http_rq_text.Request_body.description}</li>
                 </ul>
             </div>
                   

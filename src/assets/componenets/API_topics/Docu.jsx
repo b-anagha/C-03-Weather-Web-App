@@ -12,7 +12,7 @@ function Docu() {
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Documentation</div>
             <div>
                 <ul>
-                    <li className="mb-1">{api_text.Documentation.description}</li>
+                    <li className="mb-1 text-left">{api_text.Documentation.description}</li>
                 </ul>
             </div>
                    

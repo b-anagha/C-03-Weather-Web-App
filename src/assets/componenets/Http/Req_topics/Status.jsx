@@ -11,7 +11,7 @@ function Status() {
         >
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Status</div>
             <div>
-                <ul>
+                <ul className="text-left">
                     <li className="mb-1">{http_rq_text.Status_Codes.description[0]}</li>
                     <li className="mb-1">{http_rq_text.Status_Codes.description[1]}</li>
                 </ul>

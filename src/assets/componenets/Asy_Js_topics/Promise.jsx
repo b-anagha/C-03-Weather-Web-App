@@ -12,7 +12,7 @@ function Promise() {
             <div className={`text-center basis-full mb-5 ${styles.title}`}>Promises</div>
             <div>
                 <ul>
-                    <li className="mb-1">{asy_js_text.Promises.description}</li>
+                    <li className="mb-1 text-left">{asy_js_text.Promises.description}</li>
                 </ul>
             </div>
                    

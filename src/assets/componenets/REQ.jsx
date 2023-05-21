@@ -92,8 +92,8 @@ function REQ() {
         <div className="my-10 w-full">
           <div>
             <ul className="ml-5">
-              <li className="mb-1">{http_rq_text.para1}</li>
-              <li className="mb-1">{http_rq_text.para3}</li>
+              <li className="mb-1  text-left">{http_rq_text.para1}</li>
+              <li className="mb-1 text-left">{http_rq_text.para3}</li>
             </ul>
           </div>
           {topic == 1 && <Head />}

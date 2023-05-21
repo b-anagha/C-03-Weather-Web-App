@@ -65,8 +65,8 @@ function Res() {
 
         <div>
           <ul className="ml-5">
-            <li className="mb-1">{http_rs_text.para1}</li>
-            <li className="mb-1">{http_rs_text.para3}</li>
+            <li className="mb-1 text-left">{http_rs_text.para1}</li>
+            <li className="mb-1 text-left">{http_rs_text.para3}</li>
           </ul>
         </div>
         <div className="my-10 w-full">
